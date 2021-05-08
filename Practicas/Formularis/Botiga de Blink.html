@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Botiga de Blink</title>
+  </head>
+  <body>
+    <h1>Botiga de Blink</h1>
+      <ul>                          <!-- Zonas:  -->
+        <li><a href="#formulari1">Formulari de compra</a></li>
+        <li><a href="#formulari2">Formulari d'aplicació</a></li>
+      </ul>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="imatges/zona.png" usemap="#zonas">
+          <map name="zonas">
+            <area shape="poly" href="#formulari1" coords="34,38,33,24,36,12,33,5,22,0,10,4,6,12,5,20,5,35,18,40">
+            <area shape="poly" href="#formulari2" coords="79,25,93,19,81,19,85,13,77,12,73,18,68,13,59,12,47,12,45,23,51,33">
+          </map>
+      <form action="#" method="post">
+        <h2  id="formulari1">Compra</h2>
+        <h4>Què desitja avui?</h4>
+      <fieldset>                                <!-- Formulari 1:  -->
+        <legend>Informació de guerrers 📋</legend>
+            <input type="text" id="name" name="name" placeholder="Màxim 50 caràcters" maxlength="50" required>
+            <label for="name">💳 Nom i cognoms *</label> <br><br>
+            <input type="date" id="date" name="date" required>
+            <label for="date">📆 Data de naixement *</label> <br><br>
+            <select id="site" name="site" required>
+              <option></option>
+              <optgroup label="Ciutat"></optgroup>
+              <option>Earth's Edge</option>
+              <option>Opera Lands</option>
+              <option>Firefox Mountains</option>
+              <option>Chromium's End</option>
+            </select>
+            <label for="site">🌌 D'on vens? *</label> <br><br>
+            <textarea name="lloc1" rows="2" cols="80" placeholder="Escriu aquí la teva adreça completa *" required></textarea>
+        </fieldset>
+        <fieldset>                                      <!-- Items:  -->
+            <legend id="items">Items ⚔️</legend>
+              <input type="number" id="potion" name="potion" value="0" min="0">
+              <label for="potion"><img src="imatges/obj1.png" alt="Pocio"></label><br>
+              <input type="number" id="key" name="key" value="0" min="0">
+              <label for="key"><img src="imatges/obj2.png" alt="Clau"></label><br>
+              <input type="number" id="light" name="light" value="0" min="0">
+              <label for="light"><img src="imatges/obj3.png" alt="Candelabre"></label> <br><br>
+                <img src="imatges/tri.png" usemap="#items">
+                  <map name="items">
+                    <area alt="Pocio" shape="poly" title="Pocio" href="temp.html" coords="46,53,53,36,49,24,38,16,26,15,22,10,18,5,11,5,10,14,15,22,11,33,12,43,18,54,30,59">
+                    <area alt="Clau" shape="poly" title="Clau" href="temp2.html" coords="99,57,85,33,72,27,70,14,78,7,90,7,95,17,92,29,98,39,104,37,103,44,110,45,107,53">
+                    <area alt="Candelabre" shape="poly" title="Candelabre" href="temp3.html" coords="129,56,130,42,138,44,144,39,143,29,149,26,143,17,144,7,153,3,161,10,161,19,163,28,161,37,164,43,164,57,141,58,136,55">
+                  </map>
+        </fieldset>
+        <fieldset>                             <!-- Pagament:  -->
+          <legend>Pagament 💰</legend>
+          <input type="radio" id="gold" name="payment" checked>
+          <label for="gold">Or</label>
+          <input type="radio" id="trade" name="payment">
+          <label for="trade">Intercanvi</label>
+        </fieldset>
+          <br><input type="checkbox" id="terms" name="terms" required>
+          <label for="terms"><a href=Terminos.html>He llegit i accepte les condicion de la botiga</a></label><br><br>
+          <button type="reset" name="button">Reinicia</button>
+          <button type="submit" name="button">Envia</button>
+      </form> <br>
+      <form action="#" method="post">
+        <h2 id="formulari2">Aplicació</h2>
+        <h4>Estem reclutant herois molt heròics!</h4>
+      <fieldset>                                                <!-- Formulari 2:  -->
+        <legend>Informació personal 🔮</legend>
+        <input type="radio" name="Clase" id="archer" required>
+        <label for="archer"><img src="imatges/archer.png" alt="Arquers"></label>
+        <input type="radio" name="Clase" id="warrior" required>
+        <label for="warrior"><img src="imatges/warrior.png" alt="guerrers"></label>
+        <input type="radio" name="Clase" id="wizard" required>
+        <label for="wizard"><img src="imatges/wizard.png" alt="Mags"></label><br>
+        <textarea name="historia" rows="2" cols="80" placeholder="Explica'ns la teva aventura més interessant *" required></textarea><br><br>
+        <label for="photo">Puja la teva foto *</label><br>
+        <input type="file" name="foto" required>
+        <p>Marca les teues aptituds</p>
+        <input type="checkbox" id="aptitudes1" name="aptituds">
+        <label for="aptitudes1">Heroicitat 🦸</label><br><br>
+        <input type="checkbox" id="aptitudes2" name="aptituds">
+        <label for="aptitudes2">Altruisme 💑</label><br><br>
+        <input type="checkbox" id="aptitudes3" name="aptituds">
+        <label for="aptitudes3">Treball en equip 👷🧑‍🏭</label><br><br>
+        <input type="checkbox" id="aptitudes4" name="aptituds">
+        <label for="aptitudes4">Habilitats socials 🧑‍🏫</label><br><br>
+        <input type="color" value="#ff0000" id="colour" name="colour" oninput="changeBackground(colour.value)">
+        <label for="colour">Color preferit (no sembla un test de personalitat?)</label>
+          <script type="text/javascript">
+            function changeBackground(colorValue){
+                document.body.style.backgroundColor = colorValue;
+              }
+          </script>
+      </fieldset>
+      <fieldset>                                    <!-- Herois:  -->
+        <legend id="herois">Herois</legend> <br>
+          <img src="imatges/tri2.png" usemap="#herois">
+            <map name="herois">
+              <area href="archers.html" coords="12,28,4,20,6,14,5,7,21,3,29,9,32,15,31,24,23,27,36,20,41,13,46,7,47,22,38,37,29,40,23,42,29,29" shape="poly">
+              <area href="warriors.html" coords="64,32,59,25,61,15,60,9,52,10,56,3,65,7,74,10,80,15,82,20,80,29" shape="poly">
+              <area href="warriors.html" coords="87,45,90,37,95,33,93,27,99,9,95,4,85,29,84,36" shape="poly">
+              <area href="wizards.html" coords="118,28,107,27,107,16,112,7,125,7,131,17,140,16,146,21,143,26,129,28" shape="poly">
+            </map>
+      </fieldset>
+        <br><input type="checkbox" id="terms2" name="terminos2" required>
+        <label for="terms2">Accepto ser un heroi molt heròic i defensar el bé de la població de les Browser Islands * </label><br><br>
+        <button type="reset" name="button">Reinicia</button>
+        <button type="submit" name="button">Envia</button>
+      </form>
+  </body>
+</html>
