@@ -1,12 +1,12 @@
 # IT
 
-Practicas y proyectos hechos en clase:
+## Practicas y proyectos hechos en clase:
 
-GM - SMIX
+GM - SMIX //
 GS - DAM
 
 
-WEBs hechas:
+## WEBs hechas:
 
 Mi portafolio:
 https://github.com/Voldwyce/MyPortfolio
