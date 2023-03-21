@@ -8,7 +8,7 @@ También incluye proyectos pequeños realizados por mí, y enlaces a webs que he
 GM - SMIX //
 GS - DAM
 
-[](https://copernic.cat/images/logos/logo-header.png)
+![Logo Copernic](https://copernic.cat/images/logos/logo-header.png)
 
 ## Modulos DAM
 
