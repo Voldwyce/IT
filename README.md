@@ -8,6 +8,15 @@ También incluye proyectos pequeños realizados por mí, y enlaces a webs que he
 GM - SMIX //
 GS - DAM
 
+## Modulos DAM
+
+[M01 - Sistemas informaticos](https://github.com/Voldwyce/IT/tree/main/GS/M01_SistemesInformatics)
+
+[M02 - Base de datos](https://github.com/Voldwyce/IT/tree/main/GS/M02_BaseDeDades)
+
+[M03 - Programacion](https://github.com/Voldwyce/IT/tree/main/GS/M03_Programacio)
+
+[M04 - Lenguaje de marcas](https://github.com/Voldwyce/IT/tree/main/GS/M04_LlenguatgeMarques)
 
 ## WEBs hechas:
 
