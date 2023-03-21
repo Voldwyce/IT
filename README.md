@@ -8,6 +8,8 @@ También incluye proyectos pequeños realizados por mí, y enlaces a webs que he
 GM - SMIX //
 GS - DAM
 
+[](https://copernic.cat/images/logos/logo-header.png)
+
 ## Modulos DAM
 
 [M01 - Sistemas informaticos](https://github.com/Voldwyce/IT/tree/main/GS/M01_SistemesInformatics)
